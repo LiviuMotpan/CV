@@ -1,1 +1,1 @@
-this is a git project.
+Here is the CSS Lesson.
