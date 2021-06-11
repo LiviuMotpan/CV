@@ -152,3 +152,7 @@ section h2 {
 .language-russian .active{
   width: 113px;
 }
+footer {
+  padding: 20px;
+  text-align: center;
+}
