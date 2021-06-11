@@ -10,6 +10,11 @@ body {
   line-height: 20px;
 }
 
+img {
+  width: 200px;
+  height:200px;
+}
+
 .part-1 {
   width: 25%;
   padding: 30px;
