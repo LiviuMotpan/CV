@@ -1,158 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 200px;
-  height:200px;
-}
-
-body {
-  display: flex;
-  font-family: 'Baloo Tammudu 2', cursive;
-  line-height: 20px;
-}
-
-.part-1 {
-  width: 25%;
-  padding: 30px;
+.bg-color1 {
   background-color: #1F2C3D;
-  color: #DFDDE0;
-}
-.part-2 {
-  width: 75%;
-  background: #DFDDE0;
-  padding: 30px;
-}
-img {
-  border-radius: 50%;
-}
-.part-1 i {
-  background: white;
-  padding: 7.5px;
-  border-radius: 50%;
-  color: #1F2C3D;
-}
-section h2 strong {
-  padding: 10px;
-}
-.about h2 {
-  width: 80%;
-}
-section {
-  padding: 25px;
-}
-section h2 {
-  padding: 20px 0;
 }
 
-.part-1 p ,.part-1 span {
-  font-size: 15px;
-}
- ul {
-  padding: 0 0 0 30px;
-  list-style: none;
-}
-.part-1 ul li {
-  padding: 10px;
-}
-.part-1 h2 {
-  font-size: 20px;
-}
-.skills ul {
-  list-style: circle;
-}
-.skill {
-  display: flex;
-  width: 200px;
-  height: 5px;
-  background-color: #DFDDE0;
-  float: right;
-}
-.skill-html .active {
-  width: 182px;
+.bg-color2 {
   background-color: #0D5E79;
-}
-.skill-css .active {
-  width: 174px;
-  background-color: #0D5E79;
-}
-.skill-sass .active {
-  width: 105px;
-  background-color: #0D5E79;
-}
-.skill-js .active {
-  width: 146px;
-  background-color: #0D5E79;
-}
-.skill-react .active {
-  width: 136px;
-  background-color: #0D5E79;
-}
-.skill-bootstrap .active {
-  width: 112px;
-  background-color: #0D5E79;
-}
-.name-job {
-  background-color: #1F2C3D;
-  padding: 50px;
-  color: #DFDDE0;
-  text-align: center;
-  margin-bottom: 40px;
-}
-.name-job h1 {
-  font-size: 60px;
-  margin-bottom: 20px;
-}
-.name-job h3 {
-  font-size: 20px;
-}
-.part-2 i {
-  background-color: #0D5E79;
-  padding: 7.5px;
-  color: #DFDDE0;
-  border-radius: 50%;
-}
-.part-2 section h2 {
-  border-bottom: 2px solid #1F2C3D;
-  padding-bottom: 5px;
-  margin-bottom: 30px;
 }
 
-.part-2 ul li {
-  margin-bottom: 20px;
-  list-style: none;
-}
-.languages .language .bar{
-  background: #1F2C3D;
-  display: flex;
-  width: 300px;
-  height: 5px;
-}
-.language {
-  display: flex;
-}
-.language h3 {
-  width: 150px;
-}
-.language .active{
+.bg-color3 {
   background-color: #379ec0;
 }
-.language-english .active{
-  width: 210px;
+
+.text-color1 {
+  color: #1F2C3D;
 }
-.language-french .active{
-  width: 192px;
+.text-color4 {
+  color: #DFDDE0;
 }
-.language-romanian .active{
-  width: 300px;
+.bg-color4 {
+  background-color: #DFDDE0;
 }
-.language-russian .active{
-  width: 113px;
+.ul li > div {
+  height: 5px;
+  width: 200px;
 }
-footer {
-  padding: 20px;
-  text-align: center;
+
+p,li,a,h3 {
+  font-size: 14px;
+}
+.ul-2 li div > div {
+  height: 5px;
+  width: 250px;
 }
