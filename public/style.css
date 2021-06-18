@@ -1,15 +1,12 @@
 .bg-color1 {
   background-color: #1F2C3D;
 }
-
 .bg-color2 {
   background-color: #0D5E79;
 }
-
 .bg-color3 {
   background-color: #379ec0;
 }
-
 .text-color1 {
   color: #1F2C3D;
 }
@@ -23,11 +20,46 @@
   height: 5px;
   width: 200px;
 }
-
 p,li,a,h3 {
   font-size: 14px;
 }
 .ul-2 li div > div {
   height: 5px;
-  width: 250px;
+  width: 200px;
+}
+@media only screen and (max-width:1700px) {
+  .ul-2 li {
+    width: 300px!important;
+  }
+  .ul .bar {
+    width: 150px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width:1100px) {
+  #body {
+    display: block!important;
+  }
+  #body .part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #body .about {
+    width: 300px;
+    padding-top: 200px;
+  }
+  #img {
+    width: 250px!important;
+    height: 250px;
+
+  }
+  header {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
 }
